@@ -181,6 +181,7 @@ test_concatMap f = t (V.concatMap f)
 fmap (concat . reverse)$ forM
   [ 'test_head
   , 'test_null
+  , 'test_length
   , 'test_bang
   , 'test_safe_bang
   , 'test_head
